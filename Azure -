@@ -6,3 +6,16 @@ Availability zone services
 2) Zone redundant - Azure select the AZ’s for us automatically  , will deploy in more than one AZ
 3) Always available service - global services, non regional services.  Eg: Entra ID, Azure portal.
 
+Resources - Azure services that we have access to 
+Resource groups - logical grouping of resources. Grouping should be based of lifecycle etc
+	A resource must belong to only 1 resource group
+Subscriptions - billing unit. 
+        Every resource must exist inside 1 subscription.
+	A user can have more than 1 subscription. 
+        User who is not part of a subscription cant see the resources inside it.
+        When organization &  subscriptions scales then to avoid complexity of increased subscription management groups is used
+Management group - We have root management group and sub management group and sub management group may be connected to a subscription . 
+                Every subscription can be connected to only 1 management group but a management group can have multiple subscriptions
+                Root management group + max 5 management groups only can be the size = max 6 
+                 (use : inheritance , apply policy/rule at root level so that it will get applied to all) 
+
