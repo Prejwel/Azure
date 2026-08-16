@@ -21,8 +21,8 @@ Management group - We have root management group and sub management group and su
 
 Virtual machine 
 Scaling 
-scale up 
-scale out 
+scale up - upgrade
+scale out - increasing the quantity
 Scaleset - group of Vm that can be scaled up or down
 Availability set - multiple VM & identical function separated from each other for availability
 Fault domain - for unplanned outages 
@@ -34,7 +34,8 @@ App services/Webapps - running code in the cloud.Give code & config to AZ they w
  No access to hardware. (PAAS)
 Container services - another way to run code in the cloud. Container contain everything the  app need to run on a container image. 
 ACI - container instance - single instance. Quickest way to deploy a container.
-ACA - container apps - easy to use like a webservice
+ACA - container apps - easy to use like a webservice.
+	This service is specifically designed for hosting micro services & event driven applications in a serverless environment.
 AKS - Kubernetes service - runs on a cluster of servers 
 Azure virtual desktop - desktop version of windows that runs on cloud.
 
