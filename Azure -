@@ -1,0 +1,8 @@
+Regions - collection of DC’s interconnected by a low latency NW.  
+Availability zones - DC's , physically separate locations with in each region. Not every region supports AZ
+Availability zone services 
+1) Zonal - we can select the AZ’s in which we want to deploy the service
+        Then duplicate service is deployed in another AZ. 
+2) Zone redundant - Azure select the AZ’s for us automatically  , will deploy in more than one AZ
+3) Always available service - global services, non regional services.  Eg: Entra ID, Azure portal.
+
