@@ -21,6 +21,8 @@ Management group - We have root management group and sub management group and su
 
 Virtual machine 
 Scaling 
+scale up 
+scale out 
 Scaleset - group of Vm that can be scaled up or down
 Availability set - multiple VM & identical function separated from each other for availability
 Fault domain - for unplanned outages 
@@ -49,4 +51,7 @@ Peering - subnets on diff: Vnets cant communicate. Connecting 2 vnets together i
 Azure DNS - used to give name to IP address . Can give names to Vm’s 
 VPN - virtual private NW . Allows comm: btw workstation & a NW or btw 2 NW’s
 	Encrypts traffic btw those 2 points
-VPN Peering- connecting 2 distant NW’s using VPN devices. Its called Site to Site VPN
+VPN Peering- connecting 2 distant NW’s using VPN devices. Its called Site to Site VPN. 
+
+Express route - private connection from ISP to an Azure end point for fasster communication. 
+
