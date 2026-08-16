@@ -19,3 +19,34 @@ Management group - We have root management group and sub management group and su
                 Root management group + max 5 management groups only can be the size = max 6 
                  (use : inheritance , apply policy/rule at root level so that it will get applied to all) 
 
+Virtual machine 
+Scaling 
+Scaleset - group of Vm that can be scaled up or down
+Availability set - multiple VM & identical function separated from each other for availability
+Fault domain - for unplanned outages 
+Update domain - used for planned outages. During planned updates 
+Proximity group - multiple VM having identical function. 
+				Placed close together for better performance but they are less available at the time of any outage in that location.
+
+App services/Webapps - running code in the cloud.Give code & config to AZ they will run it.
+ No access to hardware. (PAAS)
+Container services - another way to run code in the cloud. Container contain everything the  app need to run on a container image. 
+ACI - container instance - single instance. Quickest way to deploy a container.
+ACA - container apps - easy to use like a webservice
+AKS - Kubernetes service - runs on a cluster of servers 
+Azure virtual desktop - desktop version of windows that runs on cloud.
+
+Azure Functions -piece of code that runs in cloud, does something specific in a finite amt of time, Triggered by something , inexpensive
+
+Vnets -Virtual Networks
+Subnets -subdivision of vnet. All VM must belong to at least one subnet.
+NIC - network interface card - connects virtual machine to subnets.
+	Some VM can have more than 1 NIC & can connect to more than 1 subnet.
+VM with public IP are eligible to be accessed from outside AZURE
+NSG -Network security group - An ACL that blocks inbound & outbound traffic  from a subnet based on certain rules. ( rule is based on 5 tuple match - source IP, port, dest IP port, protocol.).
+Rules have priorities. Traffic passes only if it matches allow rule of NSG filter
+Peering - subnets on diff: Vnets cant communicate. Connecting 2 vnets together is called peering. VM on one NW can comm: with VM on another NW.
+Azure DNS - used to give name to IP address . Can give names to Vm’s 
+VPN - virtual private NW . Allows comm: btw workstation & a NW or btw 2 NW’s
+	Encrypts traffic btw those 2 points
+VPN Peering- connecting 2 distant NW’s using VPN devices. Its called Site to Site VPN
