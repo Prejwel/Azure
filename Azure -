@@ -19,6 +19,7 @@ Management group - We have root management group and sub management group and su
                 Every subscription can be connected to only 1 management group but a management group can have multiple subscriptions
                 Root management group + max 5 management groups only can be the size = max 6 
                  (use : inheritance , apply policy/rule at root level so that it will get applied to all) 
+-------------------------------
 
 Virtual machine 
 Scaling 
