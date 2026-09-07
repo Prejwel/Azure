@@ -12,7 +12,7 @@ Resource groups - logical grouping of resources. Grouping should be based of lif
 	A resource must belong to only 1 resource group
 Subscriptions - billing unit. 
         Every resource must exist inside 1 subscription.
-	A user can have more than 1 subscription. 
+	    A user can have more than 1 subscription. 
         User who is not part of a subscription cant see the resources inside it.
         When organization &  subscriptions scales then to avoid complexity of increased subscription management groups is used
 Management group - We have root management group and sub management group and sub management group may be connected to a subscription . 
