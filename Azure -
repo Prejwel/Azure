@@ -33,8 +33,11 @@ Proximity group - multiple VM having identical function.
 				Placed close together for better performance but they are less available at the time of any outage in that location.
 ------------------------------------
 
-App services/Webapps - running code in the cloud.Give code & config to AZ they will run it.
- No access to hardware. (PAAS)
+App services- running code in the cloud. Give code & config to AZ they will run it.
+	No access to hardware. (PAAS)
+	Appservice  - PAAS in Azure that lets you host web apps & API's without managing the underlying servers.
+Webapps -  Application u delploy in appservice 
+
 Container services - another way to run code in the cloud. Container contain everything the  app need to run on a container image. 
 ACI - container instance - single instance. Quickest way to deploy a container.
 ACA - container apps - easy to use like a webservice.
