@@ -31,6 +31,7 @@ Fault domain - for unplanned outages
 Update domain - used for planned outages. During planned updates 
 Proximity group - multiple VM having identical function. 
 				Placed close together for better performance but they are less available at the time of any outage in that location.
+------------------------------------
 
 App services/Webapps - running code in the cloud.Give code & config to AZ they will run it.
  No access to hardware. (PAAS)
