@@ -37,6 +37,7 @@ App services- running code in the cloud. Give code & config to AZ they will run 
 	No access to hardware. (PAAS)
 	Appservice  - PAAS in Azure that lets you host web apps & API's without managing the underlying servers.
 Webapps -  Application u delploy in appservice 
+------------------------------------
 
 Container services - another way to run code in the cloud. Container contain everything the  app need to run on a container image. 
 ACI - container instance - single instance. Quickest way to deploy a container.
