@@ -47,6 +47,7 @@ AKS - Kubernetes service - runs on a cluster of servers
 Azure virtual desktop - desktop version of windows that runs on cloud.
 
 Azure Functions -piece of code that runs in cloud, does something specific in a finite amt of time, Triggered by something , inexpensive
+-----------------------------------------
 
 Vnets -Virtual Networks
 Subnets -subdivision of vnet. All VM must belong to at least one subnet.
