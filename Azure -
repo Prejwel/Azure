@@ -65,4 +65,4 @@ If doing WFH we connect to office NW from home via VPN - its called P2S (point t
 	Desktop -> point
 	Office NW -> Site
 Express route - private connection from ISP to an Azure end point for fasster communication. 
-
+----------------------------------------------
