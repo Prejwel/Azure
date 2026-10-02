@@ -61,6 +61,8 @@ Azure DNS - used to give name to IP address . Can give names to Vm’s
 VPN - virtual private NW . Allows comm: btw workstation & a NW or btw 2 NW’s
 	Encrypts traffic btw those 2 points
 VPN Peering- connecting 2 distant NW’s using VPN devices. Its called Site to Site VPN. 
-
+If doing WFH we connect to office NW from home via VPN - its called P2S (point to site)
+	Desktop -> point
+	Office NW -> Site
 Express route - private connection from ISP to an Azure end point for fasster communication. 
 
