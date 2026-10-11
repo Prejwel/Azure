@@ -72,3 +72,13 @@ Container (blob) storage
 Disk storage - for virtual Hard disks ( VHD's)
 File storage
 
+GPv2 ( General purpose ) - Std storage 
+	Subdivided into 4 types of data it can store ( file , queue, container table )
+	Can hold upto 5 PB
+	Pay for usage. 2 cents / Gb / month
+	Cheap but not recommended for High demand workloads.
+
+DataLake - 
+	good for bigdata.
+	Can go beyond 5PB & is an extremely large storage. ( can hold PB & exabytes)
+	A setting when creating GPv2 storage acct
